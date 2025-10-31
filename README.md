@@ -1,12 +1,76 @@
-# React + Vite
+## Sevito Personal Portfolio — React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains my personal portfolio website. It showcases who I am, my skills, selected projects, and ways to get in touch. The app is built with React and Vite for a fast developer experience, and styled with Tailwind CSS. It includes a responsive layout, a theme toggle (light/dark), and simple navigation between sections.
 
-Currently, two official plugins are available:
+### Tech stack
+- **React** (with Fast Refresh)
+- **Vite** tooling
+- **Tailwind CSS**
+- **React Router** for client-side navigation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Local development setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js 18 or newer (Node 20 recommended)
+- npm (comes with Node)
+
+Verify your versions:
+
+```bash
+node -v
+npm -v
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the dev server
+
+```bash
+npm run dev
+```
+
+Then open `http://localhost:5173` in your browser.
+
+If the default port is in use, you can specify another:
+
+```bash
+npm run dev -- --port 5174
+```
+
+### Lint
+
+```bash
+npm run lint
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Preview the production build locally
+
+```bash
+npm run preview
+```
+
+This will start a local server (default `http://localhost:4173`) to preview the built site.
+
+---
+
+## Deployment
+
+You can deploy this portfolio to platforms like GitHub Pages or Vercel. Reference materials:
+
+### Deploy to GitHub Pages
+https://www.youtube.com/watch?v=hn1IkJk24ow
+
+### Deploy on Vercel
+https://www.youtube.com/watch?v=ifOJ0R5UQOc
