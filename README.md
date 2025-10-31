@@ -72,5 +72,11 @@ You can deploy this portfolio to platforms like GitHub Pages or Vercel. Referenc
 ### Deploy to GitHub Pages
 https://www.youtube.com/watch?v=hn1IkJk24ow
 
+To deploy to Gihut pages only run this command, the settings has been already configured!
+
+```bash
+npm run deploy
+```
+
 ### Deploy on Vercel
 https://www.youtube.com/watch?v=ifOJ0R5UQOc
