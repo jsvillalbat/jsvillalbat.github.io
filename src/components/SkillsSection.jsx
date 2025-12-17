@@ -4,29 +4,54 @@ import {cn} from "@/lib/utils";
 
 const skills = [
     // Frontend
-    { name: "HTML/CSS", level: 95, category: "frontend" },
-    { name: "JavaScript", level: 90, category: "frontend" },
-    { name: "React", level: 90, category: "frontend" },
-    { name: "TypeScript", level: 85, category: "frontend" },
-    { name: "Tailwind CSS", level: 90, category: "frontend" },
-    { name: "Next.js", level: 80, category: "frontend" },
+    { name: "HTML/CSS", level: 50, category: "frontend" },
+    { name: "JavaScript", level: 40, category: "frontend" },
+    { name: "React", level: 40, category: "frontend" },
   
     // Backend
-    { name: "Node.js", level: 80, category: "backend" },
-    { name: "Express", level: 75, category: "backend" },
-    { name: "MongoDB", level: 70, category: "backend" },
+    { name: "FastAPI", level: 80, category: "backend" },
+    { name: "Django", level: 60, category: "backend" },
+    { name: "Flask", level: 60, category: "backend" },
+    { name: "Python", level: 80, category: "backend" },
+    { name: "Rust", level: 65, category: "backend" },
+    { name: "Go", level: 65, category: "backend" },
     { name: "PostgreSQL", level: 65, category: "backend" },
-    { name: "GraphQL", level: 60, category: "backend" },
+
+    // Cloud
+    { name: "AWS", level: 70, category: "cloud" },
+    { name: "GCP", level: 60, category: "cloud" },
+    { name: "Azure", level: 50, category: "cloud" },
+    { name: "Kubernetes", level: 30, category: "cloud" },
+    { name: "Terraform", level: 30, category: "cloud" },
+
+    // Machine Learning
+    { name: "Scikit-learn", level: 80, category: "machine learning" },
+    { name: "TensorFlow", level: 70, category: "machine learning" },
+    { name: "PyTorch", level: 60, category: "machine learning" },
+    { name: "Keras", level: 70, category: "machine learning" },
+    { name: "Pandas", level: 80, category: "machine learning" },
+    { name: "NumPy", level: 80, category: "machine learning" },
+    { name: "Matplotlib", level: 80, category: "machine learning" },
+    { name: "Seaborn", level: 80, category: "machine learning" },
+    { name: "OpenCV", level: 80, category: "machine learning" },
+    { name: "SciPy", level: 80, category: "machine learning" },
+    { name: "NLTK", level: 40, category: "machine learning" },
+    { name: "Spacy", level: 80, category: "machine learning" },
+    { name: "NLP", level: 70, category: "machine learning" },
+    { name: "RAG", level: 70, category: "machine learning" },
   
     // Tools
     { name: "Git/GitHub", level: 90, category: "tools" },
     { name: "Docker", level: 70, category: "tools" },
     { name: "Figma", level: 85, category: "tools" },
     { name: "VS Code", level: 95, category: "tools" },
+    { name: "Jupyter Notebook", level: 80, category: "tools" },
+    { name: "Cursor", level: 90, category: "tools" },
+
   ];
 
 
-const categories = ["all", "frontend", "backend", "tools"]
+const categories = ["all", "machine learning", "cloud", "frontend", "backend", "tools"]
 
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory] = useState("all")
